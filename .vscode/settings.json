@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": ".\\venv\\Scripts\\python.exe",
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay"
+}
