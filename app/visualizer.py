@@ -2,7 +2,6 @@
 # Orbital trajectory visualizer for Orbit — AI Space Mission Architect
 
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 import numpy as np
 from typing import List, Dict, Optional
 

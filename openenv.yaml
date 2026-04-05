@@ -71,18 +71,21 @@ action_space:
           type: float
           description: Orbital inclination in degrees
 
-    - name: add_burn
-      description: Apply a propulsive burn to change velocity
-      fields:
-        - name: delta_v_ms
-          type: float
-          description: Magnitude of velocity change in m/s
-        - name: prograde
-          type: float
-          description: Prograde component (-1.0 to 1.0)
-        - name: radial
-          type: float
-          description: Radial component (-1.0 to 1.0)
+    -     name: add_burn
+          description: Apply a propulsive burn to change velocity
+          fields:
+            - name: delta_v_ms
+              type: float
+              description: Magnitude of velocity change in m/s
+            - name: prograde
+              type: float
+              description: Prograde component (-1.0 to 1.0)
+            - name: radial
+              type: float
+              description: Radial component (-1.0 to 1.0)
+            - name: normal
+              type: float
+              description: Normal component (-1.0 to 1.0), for inclination changes
 
     - name: set_flyby
       description: Configure a gravity assist flyby
