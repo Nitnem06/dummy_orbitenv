@@ -23,8 +23,8 @@ from __future__ import annotations
 
 from typing import Dict
 
-from physics import fuel_efficiency_ratio, proximity_score
-from tasks import get_task
+from app.physics import fuel_efficiency_ratio, proximity_score
+from app.tasks import get_task
 
 
 # ─────────────────────────────────────────────────────────────────────────────
