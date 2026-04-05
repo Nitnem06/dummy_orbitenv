@@ -38,7 +38,7 @@ from app.models import (
     StepResult,
     SubmitMissionAction,
 )
-from aop.physics import apply_burn, orbital_velocity
+from app.physics import apply_burn, orbital_velocity
 from app.tasks import TASKS, get_task
 
 
