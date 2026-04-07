@@ -1,3 +1,12 @@
+---
+title: Orbit Env
+emoji: 🚀
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # 🚀 Orbit — AI Space Mission Architect
 
 > An OpenEnv environment where an AI agent learns to design fuel-efficient space missions using real orbital mechanics.
